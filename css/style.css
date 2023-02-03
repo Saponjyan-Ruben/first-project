@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_section {
+    background: url('../icons/bg-image.png') center center/cover no-repeat;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    width: 583px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 161px;
+}
+
+.menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu>a:hover {
+    border-bottom: 1px solid white;
+}
+
+.icons_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 183px;
+    width: 20px;
+    height: 20px;
+    gap: 20px;
+}
+
+.title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+
+.text>p {
+    width: 504px;
+    height: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    text-align: center;
+}
+
+.btn>button {
+    background: #00AFDB;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    border: none;
+
+    width: 184px;
+    height: 46px;
+
+}
